@@ -13,12 +13,13 @@ class LessonTile extends StatelessWidget {
     return Card(
       child: InkWell(
         onTap: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const VideoPlayer()
-            ),
-          );
+          // Navigator.push(
+          //   context,
+          //   MaterialPageRoute(
+          //     builder: (context) => const VideoPlayer()
+          //   ),
+          // );
+          Navigator.pushNamed(context,'/tutorial',arguments:{'title': lesson.title});
         },
         child: Container(
           padding: EdgeInsets.all(16.0),

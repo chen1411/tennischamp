@@ -5,19 +5,19 @@ import 'package:tennischamp/components/lesson_tile.dart';
 class HomeScreen extends StatelessWidget {
   final List<Lesson> lessons = [
     Lesson(
-      title: 'Greetings',
+      title: 'Lesson 1',
       description: 'Learn how to greet people',
-      imageUrl: 'https://example.com/greetings.jpg',
+      imageUrl: 'https://thumbs.dreamstime.com/z/male-tennis-player-forehand-racquet-swing-hitting-ball-172307596.jpg',
     ),
     Lesson(
-      title: 'Numbers',
+      title: 'Lesson 2',
       description: 'Learn how to count',
-      imageUrl: 'https://example.com/numbers.jpg',
+      imageUrl: 'https://thumbs.dreamstime.com/z/male-tennis-player-forehand-racquet-swing-hitting-ball-172307596.jpg',
     ),
     Lesson(
-      title: 'Colors',
+      title: 'Lesson 3',
       description: 'Learn how to name colors',
-      imageUrl: 'https://example.com/colors.jpg',
+      imageUrl: 'https://thumbs.dreamstime.com/z/male-tennis-player-forehand-racquet-swing-hitting-ball-172307596.jpg',
     ),
   ];
 
@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Duolingo Clone'),
+        title: const Text('TennisChamp'),
       ),
       body: ListView.builder(
         itemCount: lessons.length,
