@@ -5,19 +5,19 @@ import 'package:tennischamp/components/lesson_tile.dart';
 class HomeScreen extends StatelessWidget {
   final List<Lesson> lessons = [
     Lesson(
-      title: 'Greetings',
+      title: 'Forehand',
       description: 'Learn how to greet people',
-      imageUrl: 'https://example.com/greetings.jpg',
+      imageUrl: 'https://thumbs.dreamstime.com/z/male-tennis-player-forehand-racquet-swing-hitting-ball-172307596.jpg',
     ),
     Lesson(
-      title: 'Numbers',
+      title: 'Backhand',
       description: 'Learn how to count',
-      imageUrl: 'https://example.com/numbers.jpg',
+      imageUrl: 'https://thumbs.dreamstime.com/z/male-tennis-player-forehand-racquet-swing-hitting-ball-172307596.jpg',
     ),
     Lesson(
-      title: 'Colors',
+      title: 'Serve',
       description: 'Learn how to name colors',
-      imageUrl: 'https://example.com/colors.jpg',
+      imageUrl: 'https://thumbs.dreamstime.com/z/male-tennis-player-forehand-racquet-swing-hitting-ball-172307596.jpg',
     ),
   ];
 

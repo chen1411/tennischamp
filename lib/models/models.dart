@@ -39,3 +39,5 @@ class Lesson {
     };
   }
 }
+
+const String posenet = "PoseNet";

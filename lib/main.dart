@@ -1,8 +1,19 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:camera/camera.dart';
 import 'package:tennischamp/screens/home_screen.dart';
+import 'pose_detection.dart';
 
-void main() {
-  runApp(MyApp());
+late List<CameraDescription> cameras;
+
+Future<Null> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  try {
+    cameras = await availableCameras();
+  } on CameraException catch (e) {
+    print('Error: $e.code\nError Message: $e.message');
+  }
+  runApp(new MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Duolingo',
-      home: HomeScreen(),
+      home: PoseDetection(cameras),
     );
   }
 }
