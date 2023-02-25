@@ -6,9 +6,9 @@ class RewardBadge extends StatelessWidget {
   final IconData icon;
 
   RewardBadge({
-    required this.title,
-    required this.subtitle,
-    required this.icon,
+    this.title,
+    this.subtitle,
+    this.icon,
   });
 
   @override

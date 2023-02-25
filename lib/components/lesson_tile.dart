@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:tennischamp/models/models.dart';
-import 'package:tennischamp/screens/lesson_detail.dart';
-import 'package:tennischamp/screens/video_player.dart';
+import '../models/models.dart';
 
 class LessonTile extends StatelessWidget {
   final Lesson lesson;
 
-  const LessonTile({Key? key, required this.lesson}) : super(key: key);
+  const LessonTile({Key key, this.lesson}) : super(key: key);
 
+  
   @override
   Widget build(BuildContext context) {
     return Card(

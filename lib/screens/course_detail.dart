@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:tennischamp/models/models.dart';
+import '../models/models.dart';
 import '../components/lesson_tile.dart';
 
 class CourseDetailScreen extends StatelessWidget {
   final Course course;
 
-  CourseDetailScreen({required this.course});
+  CourseDetailScreen({this.course});
 
   @override
   Widget build(BuildContext context) {

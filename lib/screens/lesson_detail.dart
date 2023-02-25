@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:tennischamp/models/models.dart';
+import '../models/models.dart';
 
 class LessonDetailScreen extends StatelessWidget {
   final Lesson lesson;
 
-  LessonDetailScreen({Key? key, required this.lesson}) : super(key: key);
+  LessonDetailScreen({Key key, this.lesson}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tennischamp/models/models.dart';
-import 'package:tennischamp/components/lesson_tile.dart';
+import '../models/models.dart';
+import '../components/lesson_tile.dart';
 
 class HomeScreen extends StatelessWidget {
   final List<Lesson> lessons = [

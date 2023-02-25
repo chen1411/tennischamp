@@ -1,4 +1,6 @@
 PODS:
+  - camera_avfoundation (0.0.1):
+    - Flutter
   - Flutter (1.0.0)
   - flutter_inappwebview (0.0.1):
     - Flutter
@@ -8,25 +10,39 @@ PODS:
     - Flutter
     - OrderedSet (~> 5.0)
   - OrderedSet (5.0.0)
+  - TensorFlowLite (1.13.1)
+  - tflite (1.0.4):
+    - Flutter
+    - TensorFlowLite
 
 DEPENDENCIES:
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
   - Flutter (from `Flutter`)
   - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
+  - tflite (from `.symlinks/plugins/tflite/ios`)
 
 SPEC REPOS:
   trunk:
     - OrderedSet
+    - TensorFlowLite
 
 EXTERNAL SOURCES:
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
   Flutter:
     :path: Flutter
   flutter_inappwebview:
     :path: ".symlinks/plugins/flutter_inappwebview/ios"
+  tflite:
+    :path: ".symlinks/plugins/tflite/ios"
 
 SPEC CHECKSUMS:
+  camera_avfoundation: 82dc5597033fe2dcdcca6e41f7e464d0855e74ad
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
   OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+  TensorFlowLite: 8b9dc4eb32eac0f8cb660c66bca7604da56dcc5a
+  tflite: a6911f4ac99be9c73c1dcffb1a5d54b3c56087a8
 
 PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
 

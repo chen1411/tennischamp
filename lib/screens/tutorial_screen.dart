@@ -5,11 +5,12 @@ class TutorialScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final routeArgs = ModalRoute.of(context)?.settings.arguments as Map<String, dynamic>;
+    final routeArgs = ModalRoute.of(context).settings.arguments as Map<String, dynamic>;
     final title = routeArgs['title'];
-    final url = lessonVideo[title]!;
+    final url = lessonVideo[title];
+    final id = YoutubePlayer.convertUrlToId(url);
     final controller = YoutubePlayerController(
-      initialVideoId: url,
+      initialVideoId: id,
       flags: const YoutubePlayerFlags(
         autoPlay: true,
         mute: false,
@@ -51,7 +52,7 @@ class TutorialScreen extends StatelessWidget {
               child: Text('Practice', style: TextStyle(fontSize: 20, fontFamily: "Poppins")),
               onPressed:  () {
                 // ReportUI.goUserTabs(context);
-                print('pressed');
+                Navigator.pushNamed(context,'/practice',);
               }
             ),
           ],
