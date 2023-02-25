@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "317410504535",
+    "project_id": "tennischamppose",
+    "storage_bucket": "tennischamppose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317410504535:android:4523b2bbf7259537d35812",
+        "android_client_info": {
+          "package_name": "com.example.tennischamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317410504535-2qakpmj9j222tmvcs4a5b2ndvufstqhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkXwFf_skIwDEujoH2SEZMgQtlEAsq0xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317410504535-2qakpmj9j222tmvcs4a5b2ndvufstqhc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "317410504535-kdchejd54srtg4fgct50pvttbi29bj3k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tennisPose"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

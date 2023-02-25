@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>317410504535-sq5qsh035qvgb1ji6pfhak80um5vhlbt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.317410504535-sq5qsh035qvgb1ji6pfhak80um5vhlbt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD3VMotB9PIC6BZURjjltn1rBg-IO8CuXs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>317410504535</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.tennischamp</string>
+	<key>PROJECT_ID</key>
+	<string>tennischamppose</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tennischamppose.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:317410504535:ios:b59d1d01f9acd900d35812</string>
+</dict>
+</plist>
